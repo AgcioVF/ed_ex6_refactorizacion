@@ -1,8 +1,6 @@
 # INICIO DEL EJERCICIO
-
 ## _Preparación inicial_
 Creamos el repositorio en GitHub y los enlazamos al IDE, en mi caso IntelIJ.
-
 Mediante el uso de los comandos:
 ***
 * Inicializar git de forma local.
@@ -18,15 +16,17 @@ Mediante el uso de los comandos:
     git add .
     git commit -m "Primer commit"
 ```
-
-Creamos el README.md para la documentación y lo subimos como parte del primer commit.
+* Para crear, movernos y subir ramas usamos:
+```
+    git checkout -b name // Para crear una rama y desplazarnos a ella
+    git checkout origin // Para desplazarnos a la rama principal
+    git push origin rama // Para subir los cambios de la rama especificada a la principal
+```
+* Creamos el README.md para la documentación y lo subimos como parte del primer commit.
 ***
-
 Preparamos la estructura del proyecto _(clase **NotaFinalCalculator** y **sonar-project.properties**)_ y la subimos con un segundo commit
 ***
-
 ## _Lanzamiento de sonar_scanner_
-
 * Nos dirigimos a la ruta de nuestro proyecto.
 ```
     cd C:\rutaAbsoluta
@@ -38,28 +38,17 @@ Preparamos la estructura del proyecto _(clase **NotaFinalCalculator** y **sonar-
 ```
 ***
 # REFACTORIZACION
-
 Creamos una rama para desarrollar nuestra refactorización.
 ```
         git checkout -b refactorizacion_codigo
 ```
-
 ## BLOCKER
-
 1. Eliminar una variable sin uso *(label // linea 161)*.
-
 ## HIGH
-
 1. Crear una constante para una cadena de caracteres que se repite.
-
-
 2. Reducir la complejidad cognitiva del método *procesaCalificaciones*.
-
-
 ## MEDIUM
-
 1. Crear una constante *(private static final)* para una cadena de caracteres repetida.
-
-2. Modificar el bucle del Main para iterar sobre los valores del mapa
-
-3. Eliminar una condición que siempre daba true y añadirla a la superior
+2. Modificar el bucle del Main para iterar sobre los valores del mapa.
+3. Eliminar una condición que siempre daba true y añadirla a la superior.
+4. Declarar que el método **apruebaTodosLasRAs** lanza una excepción (_NullPointerException_).
