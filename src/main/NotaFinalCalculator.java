@@ -13,6 +13,7 @@ public class NotaFinalCalculator {
             "RA5", 0.20,
             "RA6", 0.20
     );
+    private static final String NOTA_PARA = "Nota para ";
 
     // Método principal: punto de entrada del programa
     public static void main(String[] args) {
@@ -129,12 +130,12 @@ public class NotaFinalCalculator {
                                 }
                             }
                         } else {
-                            resultado.append("Nota para ").append(ra).append(" es mayor que 10. Error.\n");
-                            resultado.append("Nota para ").append(ra).append(" es mayor que 10. Error.\n");
+                            resultado.append(NOTA_PARA).append(ra).append(" es mayor que 10. Error.\n");
+                            resultado.append(NOTA_PARA).append(ra).append(" es mayor que 10. Error.\n");
                         }
                     } else {
-                        resultado.append("Nota para ").append(ra).append(" es negativa. Error.\n");
-                        resultado.append("Nota para ").append(ra).append(" es negativa. Error.\n");
+                        resultado.append(NOTA_PARA).append(ra).append(" es negativa. Error.\n");
+                        resultado.append(NOTA_PARA).append(ra).append(" es negativa. Error.\n");
                     }
                 } else {
                     resultado.append("No se encontró nota para ").append(ra).append(". Se asumirá 0.\n");
