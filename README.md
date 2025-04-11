@@ -62,4 +62,4 @@ Creamos una rama para desarrollar nuestra refactorización.
 
 2. Modificar el bucle del Main para iterar sobre los valores del mapa
 
-3. Eliminar una condición que siempre daba true
+3. Eliminar una condición que siempre daba true y añadirla a la superior

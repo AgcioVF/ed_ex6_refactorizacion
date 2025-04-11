@@ -48,9 +48,7 @@ public class NotaFinalCalculator {
 
         if (notasRA == null || notasRA.isEmpty()) {
             // No se hace nada si no hay notas (notaFinal se queda en 0.0)
-        } else {
-            if (notasRA.size() > 0) {
-
+        } else if (notasRA.size() > 0){
                 for (Map.Entry<String, Double> entrada : PESOS_RA.entrySet()) {
                     String ra = entrada.getKey();
                     double peso = entrada.getValue();
@@ -63,8 +61,6 @@ public class NotaFinalCalculator {
                     }
 
                     notaFinal += nota * peso; // Se acumula la nota ponderada
-                }
-
             }
         }
 
