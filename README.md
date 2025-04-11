@@ -27,7 +27,7 @@ Preparamos la estructura del proyecto _(clase **NotaFinalCalculator** y **sonar-
 
 ## _Lanzamiento de sonar_scanner_
 
-* Nos dirigimos a la ruta de nuestro proyecto
+* Nos dirigimos a la ruta de nuestro proyecto.
 ```
     cd C:\rutaAbsoluta
 ```
@@ -36,9 +36,17 @@ Preparamos la estructura del proyecto _(clase **NotaFinalCalculator** y **sonar-
     for /r src %f in (*.java) do javac -d target\classes "%f"
     sonar-scanner
 ```
-
+***
 # REFACTORIZACION
+
+Creamos una rama para desarrollar nuestra refactorización.
+```
+        git checkout -b refactorizacion_codigo
+```
 
 ## BLOCKER
 
+1. Eliminar una variable sin uso (label // linea 161)
+
+## HIGH
 

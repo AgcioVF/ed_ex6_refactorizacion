@@ -158,10 +158,6 @@ public class NotaFinalCalculator {
 
             case 8:
             case 7:
-                label: {
-                    resultado = "Notable";
-                    break;
-                }
 
             case 6:
                 resultado = "Bien";
