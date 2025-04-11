@@ -2,5 +2,5 @@ projectKey=Ejercicio1
 serverUrl=http://localhost:9000
 serverVersion=25.3.0.104237
 dashboardUrl=http://localhost:9000/dashboard?id=Ejercicio1
-ceTaskId=c5e355c2-9cd5-422d-bdba-31f1e7a5060d
-ceTaskUrl=http://localhost:9000/api/ce/task?id=c5e355c2-9cd5-422d-bdba-31f1e7a5060d
+ceTaskId=0a828b57-f614-4577-b718-d7ea78e07cbb
+ceTaskUrl=http://localhost:9000/api/ce/task?id=0a828b57-f614-4577-b718-d7ea78e07cbb

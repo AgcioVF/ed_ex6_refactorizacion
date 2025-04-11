@@ -46,11 +46,16 @@ Creamos una rama para desarrollar nuestra refactorización.
 
 ## BLOCKER
 
-1. Eliminar una variable sin uso *(label // linea 161)*
+1. Eliminar una variable sin uso *(label // linea 161)*.
 
 ## HIGH
 
-1. Crear una constante *(private static final)* para una cadena de caracteres repetida
+1. Crear una constante *(private static final)* para una cadena de caracteres repetida.
 
 
-2. Reducir la complejidad cognitiva del método *procesaCalificaciones*
+2. Reducir la complejidad cognitiva del método *procesaCalificaciones*.
+
+
+## MEDIUM
+
+1. Sustituir **SYSO** por **LOGGER**.
