@@ -50,7 +50,7 @@ Creamos una rama para desarrollar nuestra refactorización.
 
 ## HIGH
 
-1. Crear una constante *(private static final)* para una cadena de caracteres repetida.
+1. Crear una constante para una cadena de caracteres que se repite.
 
 
 2. Reducir la complejidad cognitiva del método *procesaCalificaciones*.
@@ -58,8 +58,8 @@ Creamos una rama para desarrollar nuestra refactorización.
 
 ## MEDIUM
 
-1. Sustituir **SYSO** por **LOGGER**.
+1. Crear una constante *(private static final)* para una cadena de caracteres repetida.
 
 2. Modificar el bucle del Main para iterar sobre los valores del mapa
 
-
+3. Eliminar una condición que siempre daba true

@@ -40,13 +40,15 @@ public class NotaFinalCalculator {
     }
 
     // Calcula la nota final a partir de las notas de cada RA y sus pesos
+
+
     public static Double calcularNotaFinal(Map<String, Double> notasRA) {
         // Por defecto, la nota final es un cero
         Double notaFinal = 0.0;
 
         if (notasRA == null || notasRA.isEmpty()) {
             // No se hace nada si no hay notas (notaFinal se queda en 0.0)
-        } else if (notasRA != null) {
+        } else {
             if (notasRA.size() > 0) {
 
                 for (Map.Entry<String, Double> entrada : PESOS_RA.entrySet()) {
