@@ -59,3 +59,7 @@ Creamos una rama para desarrollar nuestra refactorización.
 ## MEDIUM
 
 1. Sustituir **SYSO** por **LOGGER**.
+
+2. Modificar el bucle del Main para iterar sobre los valores del mapa
+
+

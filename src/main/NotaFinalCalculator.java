@@ -30,9 +30,10 @@ public class NotaFinalCalculator {
         boolean aprobado = apruebaTodosLasRAs(notasRA);
         logger.info("¿Ha aprobado todas las RAs?: " + (aprobado ? "Sí" : "No"));
 
+
         procesaCalificaciones(notasRA);
-        for (String ra: notasRA.keySet()) {
-            Double nota = notasRA.get(ra);
+        for (Map.Entry<String, Double> ra: notasRA.entrySet()) {
+            Double nota = ra.getValue();
             clasificarNotaPorSwitch(nota);
         }
 
